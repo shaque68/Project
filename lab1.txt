@@ -1,8 +1,15 @@
-1+1=2
-7+7=14
-3+3=6
-4+4=8
-5+5=10
-6+6=12
-2+2=4
+1. I installed git on my local machine
+2. I created a public repo through github.com
+3. Deployed a key from public repo to give access to local repo
+4. I created a separate branch, "student" to make updates where I created 
+lab1.txt
+5. I ran "git add .", "git commit -m "with a comment"", and "git push 
+origin student" to track, commit, and push changes to the student branch 
+of the local repo
+6. I ran "git checkout main" to swap to main branch where I ran "git 
+merge student" to merge finalized changes from student branch to main 
+branch
+7. Finally, I ran "git push origin main" to push changes to the public 
+repo. 
 
+Project URL: https://github.com/shaque68/Project.git
